@@ -1,0 +1,10 @@
+// IMyIdlInterface.idl
+
+// Declare any non-default types here with sequenceable or interface statements
+
+interface com.example.test01.IMyIdlInterface {
+    /*
+     * Example of a service method that uses some parameters
+     */
+    int returnPlus1([in] int num1);
+}
